@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng_concepts.demo1">
+      <class name="testcases.VerifyRegisterationTestCases">
         <methods>
-          <include name="test1"/>
+          <include name="VerifyRegisterationWithValidData"/>
         </methods>
-      </class> <!-- testng_concepts.demo1 -->
+      </class> <!-- testcases.VerifyRegisterationTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
